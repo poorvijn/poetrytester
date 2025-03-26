@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetrytester"
+version = "0.1.0"
+description = "Testing Poetry 2.1.1"
+authors = ["Poorvi"]
+packages = [{ include = "poetrytester" }]
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+
+[tool.poetry.group.devcode]
+
+[tool.poetry.group.devcode.dependencies]
+core-utils-audit = {git = "git@github.com:poorvijn/core.utils.audit.git", branch = 'main'}
+core-utils-web = {git = "git@github.com:poorvijn/core.utils.web.git", branch = 'main'}
