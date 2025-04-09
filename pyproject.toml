@@ -8,8 +8,6 @@ packages = [{ include = "poetrytester" }]
 [tool.poetry.dependencies]
 python = "3.10.9"
 
-[tool.poetry.group.devcode]
-
 [tool.poetry.group.devcode.dependencies]
 core-utils-audit = { git = "git+ssh://git@github.com:poorvijn/core.utils.audit.git", branch = "main" }
 core-utils-web = { git = "git+ssh://git@github.com:poorvijn/core.utils.web.git", branch = "main" }
